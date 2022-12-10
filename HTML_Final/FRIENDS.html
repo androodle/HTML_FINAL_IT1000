@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+    </head>
+    <style>
+        body {
+            background-color:aqua;
+        }
+
+        h1 {
+            background-color: greenyellow;
+            color: rebeccapurple;
+        }
+
+        h2 {
+            background-color:black;
+            color:coral;
+        }
+        p {
+            background-color: brown;
+            color: white;
+        }
+        tr {
+            background-color: darkolivegreen;
+            color: greenyellow;
+        }
+    </style>
+    <body>
+        <h1>Final HTML Project</h1>
+        <h2>Page Directory</h2>
+        <ul>
+            <li><a href="./ABOUTME.html">About Me</a></li>
+            <li><a href="./FRIENDS.html">My Friends</a></li>
+            <li><a href="./THEORY.html">Theory of Systematic Relativity</a></li>
+            <li><a href="./VIDEOGAMES.html">Favorite Video Games</a></li>
+            <li><a href="./COMPOSERS.html">Favorite Composers</a></li>
+        </ul>
+    <hr>
+        <h2>My friends</h2>
+            <p>I got tired about writing about myself so I figured I would make this page about some of my friends.</p>
+        <h2>Carson</h2>
+            <p>He is from <a href="https://en.wikipedia.org/wiki/Tennessee">Tennessee</a> and likes cars.</p>
+        <h2>Chris</h2>
+            <p>He is also from Tennessee and likes frogs.</p>
+        <h2>Jackson</h2>
+            <p>He is also from Tennessee and like programming.</p>
+        <img src="the-boys.jpg" alt="The boys">
+            <p>Here is a picture of us</p>
+            <p>From left to right: Jackson - Chris - Me - Carson</p>
+            <h1>Friends not in photo</h1>
+            <ol>
+                <li>Malakai</li>
+                <li>Alysa</li>
+                <li>Olivia</li>
+                <li>Gordon</li>
+                <li>Nathanial</li>
+                <li>Darius</li>
+                <li>Akali</li>
+                <li>Hammond</li>
+                <li>Abraham Lincoln</li>
+                <li>Joe Hisaishi</li>
+                <li>Joe Hisaishi again</li>
+            </ol>
+        
+        <table style="width:100%">
+            <tr>
+                <th>Friends</th>
+                <th>Location</th>
+                <th>Interest</th>
+            </tr>
+            <tr>
+                <td>Jackson</td>
+                <td>Florida</td>
+                <td>Programming</td>
+            </tr>
+            <tr>
+                <td>Chris</td>
+                <td>Tennessee</td>
+                <td>Frogs</td>
+            </tr>
+            <tr>
+                <td>Carson</td>
+                <td>Tennessee</td>
+                <td>Cars</td>
+            </tr>
+            </table>
+        <h1>Coding</h1>
+    <pre>
+        <code>
+            friends_list = [&#39;Carson&#39;, &#39;Chris&#39;, &#39;Jackson&#39;]
+            interest_list = [&#39;cars&#39;, &#39;frogs&#39;, &#39;programming&#39;]
+
+            print(friends_list)
+
+            while True:
+                friend = input(&quot;Which friend would you like to learn about? &quot;)
+                if friend in friends_list:
+                    interest = friends_list.index(friend)
+                    print(f&quot;{friend} likes {interest_list[interest]}.&quot;)
+                    break
+                else:
+                    print(&quot;Please choose one from the list provided.&quot;)
+                
+        </code>
+    </pre>
+    </body>
+</html>
